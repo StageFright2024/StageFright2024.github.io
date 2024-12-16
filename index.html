@@ -36,6 +36,23 @@
         u {
             text-decoration: underline;
         }
+
+        .glow {
+            font-size: 22px;
+            color: #fff;
+            text-align: center;
+            animation: glow .1s ease-in-out infinite alternate;
+        }
+
+        @-webkit-keyframes glow {
+            from {
+                text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e2e600, 0 0 40px #99970d, 0 0 50px #a1b919, 0 0 60px #ffa703, 0 0 70px #ff9100;
+            }
+        
+            to {
+                text-shadow: 0 0 20px #fff, 0 0 30px #ffffff, 0 0 40px #ffffff, 0 0 50px #ffffff, 0 0 60px #ffffff, 0 0 70px #ffffff, 0 0 80px #ffffff;
+            }
+        }
     </style>
 </head>
 <body>
@@ -54,23 +71,24 @@
 
     <p><u>Our Members</u></p>
 
-    <p><u>Jimmothy Johnothy</u> - Lead Singer<br>
-    insert background here</p>
+    <table class="center">
+        <tr><td><p><u>Jimmothy Johnothy - Lead Singer</u><br>
+        <span style="font-size:18px">Our fearless leader and guiding light, <br>Jimmothy is nothing short of a <span class="glow">Golden God</span></span></p></td>
 
-    <p><u>Blair Coolson</u> - Lead Guitar<br>
-    insert background here</p>
+        <td><p><u>Blair Coolson - Lead Guitar</u><br>
+        <span style="font-size:18px">Nobody's cooler than Blair Coolson</span></p></td><tr>
 
-    <p><u>Brad Dollar$ign</u> - Rhythm Guitar<br>
-    insert background here</p>
+        <tr><td><p><u>Brad Dollar$ign - Rhythm Guitar</u><br>
+        <span style="font-size:18px">Brad Dollar$ign is the secret nighttime alter-ego<br> of billionare playboy Chad Dollar$ign (shhh)</span></p></td>
 
-    <p><u>Timmothy Johnothy</u> - Bass<br>
-    insert background here</p>
+        <td><p><u>Timmothy Johnothy - Bass</u><br>
+        <span style="font-size:18px">Jimmothy's long lost and slightly<br> less talented younger brother</span></p></td></tr>
 
-    <p><u>Alec McDougal</u> - Keyboard<br>
-    insert background here</p>
+        <tr><td><p><u>Alec McDougal - Keyboard</u><br>
+        <span style="font-size:18px">Stage Fright fans have long attempted to discover<br> the origins of Alec McDougal, but even the band members<br>themselves are unsettlingly unaware.</span></p></td>
 
-    <p><u>Sun Sung</u> - Drums<br>
-    insert background here</p>
-
+        <td><p><u>Sun Sung - Drums</u><br>
+        <span style="font-size:18px">Sun Sung is a time traveler from the year 2150. <br>He's here to kill your grandfather, thereby <br>preventing the Carmine Cataclysm of 2133. <br>Oh and also to rock out.</span></p></td></tr>
+    </table>
 </body>
 </html>
