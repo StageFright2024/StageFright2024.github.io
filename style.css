@@ -1,74 +1,37 @@
-h2{
-    text-align: center;
-    color: plum;
-    font-family:'Courier New', Courier, monospace
+html, body {
+  background: url('background.gif') no-repeat center center fixed;
+  background-size: cover;
+  text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
-p1{
-    text-align: center;
-    font-family:'Courier New', Courier, monospace;
-    color: white
+p1, p2, p3, h2 {
+  font-size: 36px;
+  color: white;
+  text-shadow:
+     -1px -1px 0 #000,
+      1px -1px 0 #000,
+     -1px  1px 0 #000,
+      1px  1px 0 #000;
+  font-family: 'Courier New', Courier, monospace;
 }
 
-.logo{
-    border-radius: 10px;
-    width: 75%;
-    margin-left: auto;
-    margin-right: auto
-
+a:link,
+a:visited {
+  color: plum;
 }
 
-
-p3{
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 14px;
-    color: white;
-    text-align: center
+a:hover {
+  color: hotpink;
 }
 
-.column {
-  float: right;
-  padding: 10px;
-  width: 50%;
+a:active {
+  color: white;
 }
 
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-/* unvisited link */
-a:link {
-    color: plum;
-  }
-  
-  /* visited link */
-  a:visited {
-    color: plum;
-  }
-  
-  /* mouse over link */
-  a:hover {
-    color: hotpink;
-  }
-  
-  /* selected link */
-  a:active {
-    color: white;
-  }
-
-  h3{
-    font-size: 20px;
-    font-family: 'Courier New', Courier, monospace;
-    color: plum;
-  }
-
-::selection{
-  color:violet;
-  background: beige;
+h3 {
+  font-size: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  color: plum;
 }
